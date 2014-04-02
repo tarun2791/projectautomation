@@ -10,6 +10,8 @@
 	<div id="container">
 		<div id="header">
 			<p>Welcome to Automation Framework</p>
+			<%String ip = request.getRemoteAddr(  ); %>
+		<h1><%=ip %></h1>
 			
 		</div>
 		<div id="sidebar">
